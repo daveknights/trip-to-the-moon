@@ -22,7 +22,7 @@ let choreographer = new Choreographer({
       type: 'scale',
       style: 'left',
       from: 0,
-      to: 60,
+      to: 61,
       unit: '%'
     },
     {
@@ -31,7 +31,7 @@ let choreographer = new Choreographer({
       type: 'scale',
       style: 'top',
       from: 0,
-      to: 420,
+      to: 430,
       unit: 'px'
     },
     {
