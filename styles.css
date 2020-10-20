@@ -1,0 +1,52 @@
+body {
+    background-attachment: fixed;
+    background-color: #060805;
+    background-image: url('images/stars.png');
+    height: 2500px;
+}
+
+h1 {
+    color: white;
+    font-family: serif;
+    left: 50%;
+    line-height: 1;
+    position: fixed;
+    transform: translateX(-50%);
+}
+
+.down-bracket {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+#bullet {
+    opacity: 1;
+    position: fixed;
+    z-index: 2;
+}
+
+#moon {
+    height: 494px;
+    opacity: 0;
+    position: fixed;
+    left: 60%;
+    top: 300px;
+    width: auto;
+}
+
+#bullet-moon {
+    height: 494px;
+    opacity: 0;
+    position: fixed;
+    left: 60%;
+    top: 300px;
+    width: auto;
+}
+
+cite {
+    bottom: 20px;
+    color: white;
+    position: fixed;
+    right: 20px;
+}
